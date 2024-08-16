@@ -7,15 +7,18 @@ if(num>1){
         // console.log(i)
         if(num%i==0){
             console.log("It is not a Prime number")
+            alert("It is not a Prime number")
             count++
             break
         }
     }
     if(count==0){
         console.log("It is a Prime number")
+        alert("It is a Prime number")
     }
 }else{
     console.log("It is a composite number")
+    alert("It is a composite number")
 }
 
 
@@ -40,9 +43,11 @@ if(num>1){
     
 }else{
     console.log("It is a composite number")
+    alert("It is a composite number")
 }
 }
 console.log("The sum of prime numbers is ", primesum)
+alert("The sum of prime numbers is ", primesum)
 
 
 number=prompt("Enter the number: ")
@@ -66,9 +71,11 @@ if(num>1){
     
 }else{
     console.log("It is a composite number")
+
 }
 }
 console.log("The sum of Non-prime numbers is ", nonprimesum)
+alert("The sum of Non-prime numbers is ", primesum)
 
 
 number=prompt("Enter the num: ")
@@ -91,6 +98,8 @@ for(num of number){
 }
 if(primesum>nonprimesum){
     console.log("Primesum is bigger")
+    alert("primesum is bigger")
 }else{
     console.log("Non-primesum is bigger")
+    alert("non-primesum is bigger")
 }
